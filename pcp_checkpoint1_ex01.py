@@ -6,19 +6,18 @@ escolha = input(
 
 if escolha == "1":
     dolares = round(reais / 5.68, 2)
-    print("Seu saldo é de $", dolares, "Dólares Americanos.")
+    print(f"Seu saldo é de ${dolares} Dólares Americanos.")
 elif escolha == "2":
     euros = round(reais / 6.7, 2)
-    print("Seu saldo é de €", euros, "Euros.")
+    print(f"Seu saldo é de €{euros} Euros.")
 elif escolha == "3":
     pesos = round(reais * 188, 2)
-    print("Seu saldo é de $", pesos, "Pesos Argentinos.")
+    print(f"Seu saldo é de ${pesos} Pesos Argentinos.")
 elif escolha == "4":
     libras = round(reais / 7.40, 2)
-    print("Seu saldo é de £", libras, "Libras Esterlinas.")
+    print(f"Seu saldo é de £ {libras} Libras Esterlinas.")
 elif escolha == "5":
     ienes = round(reais * 26, 2)
-    print("Seu saldo é de ¥", ienes, "Ienes.")
+    print(f"Seu saldo é de ¥ {ienes} Ienes.")
 else:
     print("Por favor, adicione um numero valido")
-
