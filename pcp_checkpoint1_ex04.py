@@ -7,8 +7,9 @@ def idade_em_anos_meses_dias(dias):
     return anos, meses, dias_finais
 
 
-idade_dias = int(input("Digite a idade em dias: "))
+idade_dias = int(input("Digite sua idade em dias: "))
 
 anos, meses, dias = idade_em_anos_meses_dias(idade_dias)
 
-print(f"A idade é: {anos} anos, {meses} meses e {dias} dias.")
+print(f"Você naceu dia {dias}/{meses}/{anos}.")
+
