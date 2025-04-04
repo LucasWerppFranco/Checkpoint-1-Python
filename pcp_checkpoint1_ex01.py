@@ -11,7 +11,7 @@ def conversao_de_moedas(reais):
         icone = "€"
     elif escolha == "3":
         moeda = round(reais * 190.83)
-        icone = "P$"
+        icone = "ARS"
     elif escolha == "4":
         moeda = round(reais * 0.14)
         icone = "£"
