@@ -27,9 +27,8 @@ def conversao_de_moedas(reais):
 
 try:
     reais = float(input("Insira um valor em Reais: "))
-    moeda, icone = conversao_de_moedas(reais)  
+    moeda, icone = conversao_de_moedas(reais)
     if moeda is not None and icone is not None:
         print(f"Seu saldo é de {icone}{moeda}")
 except ValueError:
     print("Por favor, Insira um valor valido")
-
