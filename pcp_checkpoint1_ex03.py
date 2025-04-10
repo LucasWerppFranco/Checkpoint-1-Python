@@ -1,6 +1,6 @@
-anos = int(input("Digite o ano que você naceu: "))
-meses = int(input("Digite o meses que você naceu: "))
-dias = int(input("Digite o dias que você naceu: "))
+anos = int(input("Digite quaatos anos você tem: "))
+meses = int(input("Digite quantos meses você tem: "))
+dias = int(input("Digite quantos dias você tem: "))
 
 total_dias = (anos * 365) + (meses * 30) + dias
 
