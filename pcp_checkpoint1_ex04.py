@@ -11,5 +11,5 @@ idade_dias = int(input("Digite sua idade em dias: "))
 
 anos, meses, dias = idade_em_anos_meses_dias(idade_dias)
 
-print(f"Você nasceu dia {dias}/{meses}/{anos}.")
+print(f"Você tem {dias} dias, {meses} meses e {anos} anos.")
 
